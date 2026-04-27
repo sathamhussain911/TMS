@@ -135,7 +135,7 @@
     @apply absolute left-0 top-0 w-1 h-full;
   }
   .metric-card.green::before  { @apply bg-primary-500; }
-  .metric-card.amber::before  { @apply bg-amber-DEFAULT; }
+  .metric-card.amber::before  { background-color: #f5a02a; }
   .metric-card.blue::before   { @apply bg-blue-500; }
   .metric-card.red::before    { @apply bg-red-500; }
   .metric-card.teal::before   { @apply bg-teal-500; }
